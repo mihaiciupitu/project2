@@ -8,6 +8,7 @@ body {
 
   position: relative;
   margin: 0;
+  overflow: hidden;
 }
 .img {
   margin: 0;
@@ -67,7 +68,7 @@ button {
   background: #db0001;
   color: #fff;
   padding: 7px 20px;
-  font-size: 14px;
+  font-size: 10px;
   border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
@@ -195,6 +196,7 @@ body {
 @media screen and (max-width: 600px) {
   .img {
     width: auto;
+    overflow-x: hidden;
   }
   .info {
     font-size: 10px;
