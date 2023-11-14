@@ -9,7 +9,7 @@ body {
 
   position: relative;
   margin: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .img {
   margin: 0;
